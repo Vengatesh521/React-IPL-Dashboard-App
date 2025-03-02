@@ -1,0 +1,58 @@
+/* PieChart styling */
+.pie-chart-bg-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 450px; /* Slightly wider than chart width for padding */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .pie-chart-bg-container {
+    padding: 15px;
+    max-width: 100%;
+    margin: 10px;
+  }
+}
+
+/* Style the chart container */
+.pie-chart-bg-container .recharts-wrapper {
+  margin: 0 auto;
+}
+
+/* Customize legend */
+.recharts-legend-item {
+  margin-right: 20px !important;
+  font-size: 14px !important;
+  color: #333333 !important;
+}
+
+/* Customize labels */
+.recharts-pie-label-text {
+  fill: #333333;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Tooltip styling */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: #ffffff !important;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+/* Ensure proper flex centering */
+.d-flex {
+  display: flex !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}

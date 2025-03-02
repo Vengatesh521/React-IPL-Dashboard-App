@@ -48,3 +48,26 @@
     padding: 40px;
   }
 }
+.back-button-link {
+  text-decoration: none;
+  margin: 20px;
+  display: inline-block;
+}
+
+.match-stats-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.stats-heading {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Ensure the pie chart container is responsive */
+.pie-chart-bg-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
