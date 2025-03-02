@@ -1,0 +1,51 @@
+.latest-match-container {
+  margin-top: 20px;
+}
+
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.latest-match-card {
+  background-color: #1e293b;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.match-info {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.competing-team {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.match-date,
+.match-venue,
+.match-result {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.competing-team-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.match-details {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.match-detail-label {
+  font-weight: bold;
+}

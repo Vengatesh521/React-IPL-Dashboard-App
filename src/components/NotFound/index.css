@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.not-found-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+}
